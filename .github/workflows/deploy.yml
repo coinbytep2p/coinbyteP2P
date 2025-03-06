@@ -35,7 +35,7 @@ jobs:
           SOURCE_DIR: dist
 
   build-and-deploy-dev:
-    if: github.ref == 'refs/heads/develop'
+    if: github.ref == 'refs/heads/coinflake'
     runs-on: ubuntu-latest
     steps:
       - name: Checking out code
