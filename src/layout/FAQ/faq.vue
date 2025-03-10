@@ -150,7 +150,7 @@ $fontSizeMin: 12px;
   text-align: center;
   background-color: #fff;
   padding: 46px 0;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 100px;
 
   @media (max-width: 985px) {

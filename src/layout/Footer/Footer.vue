@@ -212,7 +212,7 @@
 <script setup lang="ts">
 import { defineComponent, getCurrentInstance, ref, watch,onMounted } from "vue";
 import { ArrowDown } from "@element-plus/icons-vue";
-import logo from "../../assets/image/logo.png";
+import logo from "../../assets/image/logo.svg";
 import { getStoredLanguage, saveStoredLanguage } from "../../languageStorage";
 import { useI18n } from "vue-i18n";
 import TermsDialog from '../../components/terms/index.vue';
@@ -543,13 +543,13 @@ footer {
     }
   }
   .footer-bottom-box {
-    background: #161719;
+    background: #FAFAFA;
     overflow: hidden;
 
     div.footer-bottom {
       width: 100vw;
       height: 60px;
-      background: #161719;
+      background: #FAFAFA;
       line-height: 60px;
       font-size: 0.8rem;
       color: #909090;

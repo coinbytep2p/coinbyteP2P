@@ -1592,8 +1592,8 @@ footer {
 
   div.footer-bottom {
     //width: 100vw;
+    background: #FAFAFA;
     font-weight: 400;
-    background: #161719;
     font-size: 16px;
     color: #808080;
     letter-spacing: 0;

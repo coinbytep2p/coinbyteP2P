@@ -7,34 +7,32 @@
     <div class="header-menu">
       <ul class="menu">
         <li class="crypto-dropdown-box">
-          <a href="/" v-if="$route.path.startsWith('/au')" style="color: #fff; text-decoration: none">{{
+          <a href="/" v-if="$route.path.startsWith('/au')" style="color: #1E252F; text-decoration: none">{{
               $t("messages.header.buy")
             }}</a>
-          <a href="/nz" v-if="$route.path.startsWith('/nz')" style="color: #fff; text-decoration: none">{{
+          <a href="/nz" v-if="$route.path.startsWith('/nz')" style="color: #1E252F; text-decoration: none">{{
               $t("messages.header.buy")
             }}</a>
         </li>
-        <li>
-          <!-- Latest Scams -->
-          <a href="/au/learnCenter" v-if="$route.path.startsWith('/au')" style="color: #fff; text-decoration: none">{{ $t("messages.header.market") }}</a>
-          <a href="/nz/learnCenter" v-if="$route.path.startsWith('/nz')" style="color: #fff; text-decoration: none">{{ $t("messages.header.market") }}</a>
-
-        </li>
+        <!-- <li>
+          <a href="/au/learnCenter" v-if="$route.path.startsWith('/au')" style="color: #1E252F; text-decoration: none">{{ $t("messages.header.market") }}</a>
+          <a href="/nz/learnCenter" v-if="$route.path.startsWith('/nz')" style="color: #1E252F; text-decoration: none">{{ $t("messages.header.market") }}</a>
+        </li> -->
         <li>
           <!-- about us -->
-          <a href="/au/about" v-if="$route.path.startsWith('/au')" style="color: #fff; text-decoration: none">{{
+          <a href="/au/about" v-if="$route.path.startsWith('/au')" style="color: #1E252F; text-decoration: none">{{
               $t("messages.header.trade")
             }}</a>
-          <a href="/nz/about" v-if="$route.path.startsWith('/nz')" style="color: #fff; text-decoration: none">{{
+          <a href="/nz/about" v-if="$route.path.startsWith('/nz')" style="color: #1E252F; text-decoration: none">{{
               $t("messages.header.trade")
             }}</a>
         </li>
         <li>
           <!-- Support -->
-          <a href="/au/contact" v-if="$route.path.startsWith('/au')" style="color: #fff; text-decoration: none">{{
+          <a href="/au/contact" v-if="$route.path.startsWith('/au')" style="color: #1E252F; text-decoration: none">{{
               $t("messages.header.learn")
             }}</a>
-          <a href="/nz/contact" v-if="$route.path.startsWith('/nz')" style="color: #fff; text-decoration: none">{{
+          <a href="/nz/contact" v-if="$route.path.startsWith('/nz')" style="color: #1E252F; text-decoration: none">{{
               $t("messages.header.learn")
             }}</a>
         </li>
@@ -358,7 +356,7 @@
               }}</span></router-link>
           </li>
 
-          <li @mouseover="languageShow" @mouseleave="languageHide" class="right-dropdown-box menu-item">
+          <!-- <li @mouseover="languageShow" @mouseleave="languageHide" class="right-dropdown-box menu-item">
             <el-dropdown class="language-dropdown align-icon" ref="navLanguage">
               <img :src="top_en" alt=""/>
 
@@ -382,7 +380,7 @@
                 </el-dropdown-menu>
               </template>
             </el-dropdown>
-          </li>
+          </li> -->
           <li v-if="!userInfoStore.isLogin">
             <!-- 用户认证页面   -->
             <!--            <router-link to="/signup" style="text-decoration: none">-->
@@ -711,7 +709,7 @@ const handleToLogOut = async () => {
 </script>
 
 <style scoped lang="scss">
-$headerBackGround: #161719;
+$headerBackGround: #fff;
 $bg-color: #fff;
 $main-color: #3e4191;
 $fontSizeMax: 42px;
@@ -720,7 +718,7 @@ $fontSizeDefPro: 18px;
 $fontSizeDef: 16px;
 $fontSizeMinPro: 14px;
 $fontSizeMin: 12px;
-$headerBackGround: #161719;
+$headerBackGround: #fff;
 $system-color: #3e4191;
 $bg-color: #fff;
 $bold-font: HarmonyOS_Sans_Bold;
@@ -751,7 +749,7 @@ $regular-font: HarmonyOS_Sans_Regular;
 }
 
 .header-logo {
-  width: 64px;
+  width: 164px;
   height: 64px;
   display: flex;
   align-items: center;
@@ -925,7 +923,7 @@ $regular-font: HarmonyOS_Sans_Regular;
     height: 64px;
     line-height: 50px;
     margin-right: 6px;
-    color: #fff;
+    color: #1E252F;
 
     @media (max-width: 910px) {
       & {
@@ -941,7 +939,7 @@ $regular-font: HarmonyOS_Sans_Regular;
     color: #fff;
     line-height: 80%;
     padding: 8px 10px;
-    background: #3e4191;
+    background: #F0B90A;
     border-radius: 4px;
     border: none;
     margin: 0 8px;
@@ -1021,7 +1019,7 @@ $regular-font: HarmonyOS_Sans_Regular;
   }
 
   @media (min-width: 1440px) {
-    margin-left: 120px !important;
+    margin-left: 230px !important;
   }
 
   .menu {
@@ -1366,7 +1364,7 @@ $regular-font: HarmonyOS_Sans_Regular;
   transition: transform 0.3s ease; /* 平滑的放大效果 */
   padding: 10px 15px; /* 可点击区域的内边距 */
   border-radius: 5px; /* 轻微的圆角 */
-  color: #fff; /* 白色文本 */
+  color: #1E252F; /* 白色文本 */
   text-decoration: none; /* 去除下划线 */
 }
 

@@ -18,7 +18,7 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
-$main-color: #3e4191;
+$main-color: #F0B90A;
 .button {
   // box-shadow: 4px 4px 10px 0 rgba(146, 146, 146, 0.5);
   // box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
