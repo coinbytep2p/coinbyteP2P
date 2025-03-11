@@ -814,7 +814,7 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/" style="color: #F0B90A; font-size: 14px">{{
+            <a href="/centerContent/11" style="color: #F0B90A; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
             <!-- href="/centerContent/11" -->
@@ -994,7 +994,7 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/" style="color: #F0B90A; font-size: 14px">{{
+            <a href="/centerContent/11" style="color: #F0B90A; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
             <!-- href="/centerContent/11" -->

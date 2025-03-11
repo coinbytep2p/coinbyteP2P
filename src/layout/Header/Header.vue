@@ -14,10 +14,10 @@
               $t("messages.header.buy")
             }}</a>
         </li>
-        <!-- <li>
+        <li>
           <a href="/au/learnCenter" v-if="$route.path.startsWith('/au')" style="color: #1E252F; text-decoration: none">{{ $t("messages.header.market") }}</a>
           <a href="/nz/learnCenter" v-if="$route.path.startsWith('/nz')" style="color: #1E252F; text-decoration: none">{{ $t("messages.header.market") }}</a>
-        </li> -->
+        </li>
         <li>
           <!-- about us -->
           <a href="/au/about" v-if="$route.path.startsWith('/au')" style="color: #1E252F; text-decoration: none">{{

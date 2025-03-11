@@ -70,7 +70,7 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/" style="color: #f0b90a; font-size: 14px">{{
+            <a href="/centerContent/11" style="color: #f0b90a; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
             <!-- href="/centerContent/11" -->
@@ -257,7 +257,7 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/" style="color: #f0b90a; font-size: 14px">{{
+            <a href="/centerContent/11" style="color: #f0b90a; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
             <!-- href="/centerContent/11" -->
