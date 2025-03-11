@@ -493,12 +493,11 @@ import aboutus_icons_02 from "../../assets/home/aboutus_icons_02.svg";
 import aboutus_icons_03 from "../../assets/home/aboutus_icons_03.svg";
 import aboutus_icons_04 from "../../assets/home/aboutus_icons_04.svg";
 import aboutus_icons_05 from "../../assets/home/aboutus_icons_05.svg";
-const router = useRouter();
-
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+const router = useRouter();
 const windowWidth = ref(window.document.body.offsetWidth);
 onMounted(() => {
   window.addEventListener("resize", resetWidth);
