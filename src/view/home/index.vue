@@ -814,9 +814,10 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/centerContent/11" style="color: #F0B90A; font-size: 14px">{{
+            <a href="/" style="color: #F0B90A; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
+            <!-- href="/centerContent/11" -->
             <div style="margin-top: 32px; margin-bottom: 20px; font-size: 14px;color: #808080;">
               {{ $t("messages.footer.purchase") }}
             </div>
@@ -979,24 +980,6 @@
           </li> -->
           </ul>
         </div>
-        <div
-          class="icon-links"
-          style="font-size: 14px; color: #808080; line-height: 19px; width: 8%"
-        >
-          <img src="../../assets/icons/icon_twitter.svg" alt="" />
-          <img src="../../assets/icons/icon_telegram.svg" alt="" />
-          <img src="../../assets/icons/icon_whatsapp.svg" alt="" />
-        </div>
-      </div>
-
-      <div
-        class="icon-links-lg max1290"
-        style="font-size: 14px; color: #808080; line-height: 19px"
-      >
-        <!--              {{ $t("messages.footer.dce_num") }}-->
-        <img src="../../assets/icons/icon_twitter.svg" alt="" />
-        <img src="../../assets/icons/icon_telegram.svg" alt="" />
-        <img src="../../assets/icons/icon_whatsapp.svg" alt="" />
       </div>
     </footer>
     <footer v-else>
@@ -1011,9 +994,10 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/centerContent/11" style="color: #F0B90A; font-size: 14px">{{
+            <a href="/" style="color: #F0B90A; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
+            <!-- href="/centerContent/11" -->
             <div style="margin-top: 32px; margin-bottom: 20px; font-size: 14px;color: #808080;">
               {{ $t("messages.footer.purchase") }}
             </div>

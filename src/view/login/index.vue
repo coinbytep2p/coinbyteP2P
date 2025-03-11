@@ -25,7 +25,7 @@
                       style="
                       width: 1px;
                       height: 10px;
-                      background: #3e4191;
+                      background: #F0B90A;
                       z-index: 999;
                     "
                   ></div>
@@ -115,7 +115,7 @@
                         <!--              <div class="agreement">-->
                         <!--                <a-->
                         <!--                    href="/password"-->
-                        <!--                    style="color: #3e4191; text-decoration: none"-->
+                        <!--                    style="color: #F0B90A; text-decoration: none"-->
                         <!--                >{{ $t("messages.login.forgot_password") }}</a-->
                         <!--                >-->
                         <!--              </div>-->
@@ -130,18 +130,18 @@
           <div class="login-signup">
             <div>
               {{ $t("messages.login.no_have") }} &nbsp;&nbsp;
-              <span style="color: #3e4191;cursor: pointer" @click="dialogTableVisible = true">
+              <span style="color: #F0B90A;cursor: pointer" @click="dialogTableVisible = true">
                 {{ $t("messages.login.sign") }}
               </span>
           
               <SignChoose v-model="dialogTableVisible"></SignChoose>
             </div>
             <div style="margin-top: 4px;">
-              <span style="color: #3e4191;cursor: pointer" @click="termsVisible = true">
+              <span style="color: #F0B90A;cursor: pointer" @click="termsVisible = true">
                 {{ $t("messages.login.terms") }}
               </span>
                and 
-              <span style="color: #3e4191;cursor: pointer" @click="privacyVisible = true">
+              <span style="color: #F0B90A;cursor: pointer" @click="privacyVisible = true">
                 {{ $t("messages.login.privacy") }}
               </span>
               <TermsDialog v-model="termsVisible"></TermsDialog>
@@ -174,7 +174,7 @@
                       style="
                       width: 1px;
                       height: 10px;
-                      background: #3e4191;
+                      background: #F0B90A;
                       z-index: 999;
                     "
                   ></div>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="verify-btn">
                   <el-button
-                      style="height: 48px;width: 100%;background: #3e4191;color: #fff;"
+                      style="height: 48px;width: 100%;background: #F0B90A;color: #fff;"
                       v-loading="getCodeLoading"
                       :disabled="getCodeDisabled || !recaptchaStatus"
                       @click="getVerificationCode"
@@ -289,18 +289,18 @@
           <div class="login-signup">
             <div>
               {{ $t("messages.login.no_have") }} &nbsp;&nbsp;
-              <span style="color: #3e4191;cursor: pointer" @click="dialogTableVisible = true">
+              <span style="color: #F0B90A;cursor: pointer" @click="dialogTableVisible = true">
                 {{ $t("messages.login.sign") }}
               </span>
               <SignChoose v-model="dialogTableVisible"></SignChoose>
 
             </div>
             <div style="margin-top: 4px;">
-              <span style="color: #3e4191;cursor: pointer" @click="termsVisible = true">
+              <span style="color: #F0B90A;cursor: pointer" @click="termsVisible = true">
                 {{ $t("messages.login.terms") }}
               </span>
                and 
-              <span style="color: #3e4191;cursor: pointer" @click="privacyVisible = true">
+              <span style="color: #F0B90A;cursor: pointer" @click="privacyVisible = true">
                 {{ $t("messages.login.privacy") }}
               </span>
               <TermsDialog v-model="termsVisible"></TermsDialog>
@@ -489,7 +489,7 @@ const showPassWord = () => {
 const text = t('messages.login.login');
 // 进度条
 const percentage = ref(25);
-const customColor = ref("#3e4191");
+const customColor = ref("#F0B90A");
 const increase = () => {
   percentage.value += 25;
   if (percentage.value > 100) {
@@ -630,7 +630,7 @@ const clearValidate = (formEl: FormInstance | undefined) => {
 
 $headerBackGround: #1d262f;
 $bg-color: #fff;
-$main-color: #3e4191;
+$main-color: #F0B90A;
 $fontSizeMax: 42px;
 $fontSizeMedPro: 28px;
 $fontSizeMed: 24px;
@@ -694,7 +694,7 @@ $fontSizeMin: 12px;
   }
 }
 .login-page {
-  background: #1d262f;
+  background: #FAFAFA;
   @media (max-width: 768px) {
     background: #fff;
   }
@@ -706,7 +706,7 @@ $fontSizeMin: 12px;
   justify-content: center;
   min-height: calc(100vh - 160px);
   align-items: center;
-  border-bottom: 1px solid #2e3945;
+  border-bottom: 1px solid #eee;
 
   @media (max-width: 769px) {
     display: block !important;
@@ -1087,7 +1087,7 @@ $fontSizeMin: 12px;
           }
 
           .el-radio__input.is-checked .el-radio__inner {
-            background: #3e4191;
+            background: #F0B90A;
             border-radius: 4px;
           }
 

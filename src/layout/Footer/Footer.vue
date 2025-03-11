@@ -488,7 +488,7 @@ footer {
           margin-bottom: 16px;
 
           &:hover {
-            color: #ffffff;
+            color: #F0B90A;
           }
         }
 
@@ -499,7 +499,7 @@ footer {
           margin-bottom: 16px;
 
           &:hover {
-            color: #fafafa;
+            color: #F0B90A;
           }
         }
       }
@@ -564,7 +564,7 @@ footer {
       }
 
       span:hover {
-        color: #fafafa;
+        color: #F0B90A;
       }
     }
   }

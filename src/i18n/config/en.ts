@@ -36,7 +36,7 @@ export default {
             download_option: "More Download Options",
             notice_more: "View more",
             help_support: "Support center",
-            help_connect: "Connect with Coinbyte",
+            help_connect: "Connect with CoinFlake",
             help_telegram: "Telegram",
             language: "Language",
             local_currency: "Local Currency",
@@ -84,7 +84,7 @@ export default {
             support_center: "Connect with us",
             support_announcement: "General enquiries",
             Media: "Media enquiries",
-            support_connect: "Connect with Coinbyte",
+            support_connect: "Connect with CoinFlake",
         },
         home: {
             first_chart: 'Chart',
@@ -139,9 +139,9 @@ export default {
             third_titlespan: "PayID / Osko",
             third_msgname: "Deposit AUD",
             third_msg:
-                "instantly into your Coinbyte account from 100+ NPP-enabled banks in Australia via PayID / Osko.",
+                "instantly into your CoinFlake account from 100+ NPP-enabled banks in Australia via PayID / Osko.",
             third_service:
-                "Service by Coinbyte according to its terms & privacy policy.",
+                "Service by CoinFlake according to its terms & privacy policy.",
             forth_dynamic: "Dynamic layout allows to organize",
             forth_multiple: "multiple workspaces",
             forth_and: "&",
@@ -151,15 +151,15 @@ export default {
                 " Unique and innovative feature among hundreds of cryptocurrency exchanges",
             forth_trade: "Trade",
             fifth_why: "Why choose",
-            fifth_CoinByte: "CoinByte",
+            fifth_CoinFlake: "CoinFlake",
             fifth_exchange: "Exchange for Professional Trader",
             fifth_regulation: "Regulation",
             fifth_fiat: "Fiat markets",
             fifth_Totally: "Totally reliable",
             fifth_easy: "Fast and easy",
             fifth_live: "Live chat",
-            fifth_regulationC: "Feel safe in the knowledge that our activities fall under the scope of NZ legislation. CoinByte is a Registered Digital Currencies exchange services Provider.",
-            fifth_regulationA: "Feel safe in the knowledge that our activities fall under the scope of AU legislation. CoinByte is a Registered Digital Currencies exchange services Provider.",
+            fifth_regulationC: "Feel safe in the knowledge that our activities fall under the scope of NZ legislation. CoinFlake is a Registered Digital Currencies exchange services Provider.",
+            fifth_regulationA: "Feel safe in the knowledge that our activities fall under the scope of AU legislation. CoinFlake is a Registered Digital Currencies exchange services Provider.",
             fifth_fiatC: "Coinflake is offering the Crypto/NZ pairs. You can trade cryptocurrencies with NZD.",
             fifth_fiatA: "Coinflake is offering the Crypto/AUD pairs. You can trade cryptocurrencies with AUD.",
             fifth_TotallC: "All fiat funds will be accepted to a regulated bank, crypto asset will be released to you once we receive your transfer.",
@@ -170,9 +170,9 @@ export default {
             fifth_2FA: "2FA",
             fifth_Fast: "Fast and easy",
             fifth_regulationMsg:
-                "Feel safe in the knowledge that our activities fall under the scope of AU legislation. CoinByte is a Digital Currency Exchange provider registered in AUSTRAC.",
+                "Feel safe in the knowledge that our activities fall under the scope of AU legislation. CoinFlake is a Digital Currency Exchange provider registered in AUSTRAC.",
             fifth_fiatMsg:
-                "Coinbyte is the exchange offering the most Crypto/AUD pairs in Spot Market. You can trade almost all of cryptocurrencies with AUD.",
+                "CoinFlake is the exchange offering the most Crypto/AUD pairs in Spot Market. You can trade almost all of cryptocurrencies with AUD.",
             fifth_TotallyMsg:
                 "All fiat funds are placed in a regulated bank, 98% of crypto assets are placed in cold storage. Rest assured funds are safely stored in a regulated or offline environment.",
             fifth_InstitutionalMsg:
@@ -205,7 +205,7 @@ export default {
             sixth_minVerify: "Verify your account in 2 minutes.",
             sixth_btn: "Get trading in minutes",
             seventh_explore: "Latest Scams",
-            // seventh_coin: " Coinbyte",
+            // seventh_coin: " CoinFlake",
             seventh_how: "How to buy and sell crypto currency on Coinflake",
             seventh_start: "Start trading cryptocurrency on Coinflake",
             seventh_earn:
@@ -215,7 +215,7 @@ export default {
             eighth_title: "Frequently asked questions",
             eighth_faq: "FAQs",
             eighth_provide: "What products does Coinflake provide?",
-            provide_product: "CoinByteP2P makes it easy for anyone to buy and sell cryptocurrencies like Bitcoin, Ethereum and many more. At CoinByteP2P we offer a non-custodial service - meaning your crypto is your crypto. We do not hold on to funds and you choose where you keep your assets safe.",
+            provide_product: "CoinFlakeP2P makes it easy for anyone to buy and sell cryptocurrencies like Bitcoin, Ethereum and many more. At CoinFlakeP2P we offer a non-custodial service - meaning your crypto is your crypto. We do not hold on to funds and you choose where you keep your assets safe.",
             eighth_based: "Where is Coinflake based?",
             base_content: "Founded in 2019, Coinflake is a Australia-registered cryptocurrency exchange, and has expanded to operate in New Zealand. We provide the latest trading services for hundreds of diverse crypto assets in P2P markets.",
             eighth_buy: " How to buy Bitcoin on Coinflake?",
@@ -234,7 +234,7 @@ export default {
             about_exchange:
                 "COINFLAKE is an innovative cryptocurrency exchange who providing safe and trustworthy digital currencies exchange services to its users.",
             about_enjoy:
-                "Users can enjoy the simplest way to start trading and Zero-Fee Deposit, and trading hundreds of Cryptos with your local FAIT pairs in COINBYTE",
+                "Users can enjoy the simplest way to start trading and Zero-Fee Deposit, and trading hundreds of Cryptos with your local FAIT pairs in CoinFlake",
             about_firstTitle: "Our mission",
             about_firstContent:
                 " We strive to eliminate the barriers and evolve the global economy. We are dedicated to innovate and improve our user experience to make cryptocurrency trading and investing available for everyone",
@@ -334,7 +334,7 @@ export default {
             recommend: "Recommended",
         },
         login: {
-            welcome: "Welcome to CoinByteP2P",
+            welcome: "Welcome to CoinFlakeP2P",
             forgot_password: "Forgot password?",
             or: "or sign up with",
             no_have: "Don't have an account?",
@@ -467,7 +467,7 @@ export default {
         },
         created: {
             title: 'Account created ',
-            continue: 'Verify your identification to enjoy your CoinByte Journey',
+            continue: 'Verify your identification to enjoy your CoinFlake Journey',
             account: 'Creat Account',
             complete: 'You have completed your registration',
             verification: 'Account Verification',
@@ -522,14 +522,14 @@ export default {
             privacy: "Privacy Policy.",
             first_note: "To cover processing costs, a USD $3 processing fee will be charged to refund deposits received from third party bank accounts.",
             second_note: "Payment will only be refunded if it is greater than USD $10.",
-            third_note: "This service is supported by CoinByteP2P, in accordance to CoinByteP2P's",
+            third_note: "This service is supported by CoinFlakeP2P, in accordance to CoinFlakeP2P's",
             appeal: "Appeal",
             receive: "You Receive",
         },
         deposit_Fiat: {
             trans_1: "In line with AML/CTF laws, deposits are only accepted from the bank account that is in the same name as the account you have verified on Coinflake.",
             trans_2: "To cover processing costs, a USD $3 processing fee will be charged to refund deposits received from third party bank accounts. Payment will only be refunded if it is greater than USD $10.",
-            trans_3: "This service is supported by CoinByteP2P, in accordance to CoinByteP2P's ",
+            trans_3: "This service is supported by CoinFlakeP2P, in accordance to CoinFlakeP2P's ",
             term: "Terms of Use",
             and: "and",
             privacy: "Privacy Policy.",
