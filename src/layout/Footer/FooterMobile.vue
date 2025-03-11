@@ -1476,7 +1476,7 @@ img {
 //     }
 // }
 footer {
-  background: #1d262f;
+  background: #FAFAFA;
   width: 100%;
   height: 100%;
 
@@ -1484,7 +1484,7 @@ footer {
     box-sizing: border-box;
     width: 100vw;
     // height: 40vh;
-    background: #1d262f;
+    background: #FAFAFA;
     border-bottom: none;
 
     .footer-logoinfo {
@@ -1539,7 +1539,7 @@ footer {
 
           .el-collapse-item__header {
             background-color: transparent;
-            color: white;
+            color: #242933;
             border: none;
             height: 52px;
           }

@@ -1430,12 +1430,12 @@ const nzData1 = [
     address: "FSP Website",
   },
 ];
-// function toCen1() {
-//   window.location.href = "https://www.coinbyte.exchange/centerContent/29";
-// }
-// function toCen2() {
-//   window.location.href = "https://www.coinbyte.exchange/centerContent/12";
-// }
+function toCen1() {
+  // window.location.href = "https://www.coinbyte.exchange/centerContent/29";
+}
+function toCen2() {
+  // window.location.href = "https://www.coinbyte.exchange/centerContent/12";
+}
 function seventhMore() {
   router.push("/learnCenter");
 }
