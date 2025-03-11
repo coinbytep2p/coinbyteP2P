@@ -982,7 +982,7 @@ footer {
     .footer-logo {
       display: inline-block;
       width: 40%;
-      padding: 40px 0;
+      padding: 40px 0 100px 0;
       @media (max-width: 985px) {
         & {
           display: none; //頁面<985
