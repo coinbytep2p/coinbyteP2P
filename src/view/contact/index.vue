@@ -559,7 +559,7 @@ const goKyc = (type: string) => {
       text-align: center;
       .top-part-title {
         font-size: 55px;
-        color: #3e4191;
+        color: #F0B90A;
         font-weight: 600;
         @media (max-width: 768px) {
           font-size: 42px;
@@ -682,7 +682,7 @@ const goKyc = (type: string) => {
     position: relative;
     .bottom-part-title {
       font-size: 40px;
-      color: #3e4191;
+      color: #F0B90A;
       font-weight: 600;
     }
     .bottom-part-icon {

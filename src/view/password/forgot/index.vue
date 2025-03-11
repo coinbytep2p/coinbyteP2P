@@ -43,7 +43,7 @@
           </div>
         </el-form>
         <div class="return-login">
-          <a href="/login" style="color: #3e4191; text-decoration: none"
+          <a href="/login" style="color: #F0B90A; text-decoration: none"
             > {{ $t('messages.forgot_password.return_login') }}</a
           >
         </div>
@@ -189,7 +189,7 @@ const options = ref([
 <style scoped lang="scss">
 $headerBackGround: #1d262f;
 $bg-color: #fff;
-$main-color: #3e4191;
+$main-color: #F0B90A;
 $fontSizeMax: 42px;
 $fontSizeMedPro: 28px;  
 $fontSizeMed: 24px;

@@ -199,6 +199,6 @@ function resetWidth() {
 }
 
 .text-green {
-  color: #3e4191;
+  color: #F0B90A;
 }
 </style>

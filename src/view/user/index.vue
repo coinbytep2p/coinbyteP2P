@@ -160,16 +160,16 @@ const changeTab = (path: string) => {
     color: #878787;
   }
   .el-tabs__item is-top {
-    --el-menu-active-color: #3e4191;
+    --el-menu-active-color: #F0B90A;
     font-size: 16px;
     line-height: 19px;
   }
   .el-tabs__item.is-active {
-    color: #3e4191 !important;
+    color: #F0B90A !important;
     font-weight: 500;
   }
   .el-tabs__active-bar {
-    background-color: #3e4191;
+    background-color: #F0B90A;
     height: 3px;
   }
   .el-tabs__nav-wrap::after {
@@ -179,7 +179,7 @@ const changeTab = (path: string) => {
 
   .el-radio-button {
     &:hover span {
-      color: #3e4191;
+      color: #F0B90A;
     }
     .el-radio-button__inner {
       border-radius: 6px !important;
@@ -189,13 +189,13 @@ const changeTab = (path: string) => {
       line-height: 17px;
     }
     --el-radio-button-checked-bg-color: #f1f1f1;
-    --el-radio-button-checked-text-color: #3e4191 !important;
+    --el-radio-button-checked-text-color: #F0B90A !important;
   }
   .el-table .descending .sort-caret.descending {
-    border-top-color: #3e4191;
+    border-top-color: #F0B90A;
   }
   .el-table .ascending .sort-caret.ascending {
-    border-bottom-color: #3e4191;
+    border-bottom-color: #F0B90A;
   }
   .el-radio-button__inner {
     color: #9b9b9b;

@@ -98,7 +98,7 @@ function resetWidth() {
 <style scoped lang="scss">
 $headerBackGround: #161719;
 $bg-color: #fff;
-$main-color: #3e4191;
+$main-color: #F0B90A;
 $fontSizeMax: 42px;
 $fontSizeMed: 24px;
 $fontSizeDefPro: 18px;

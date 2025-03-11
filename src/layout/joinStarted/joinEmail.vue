@@ -72,7 +72,7 @@ function resetWidth() {
 </script>
 
 <style scoped lang="scss">
-$main-color: #3e4191;
+$main-color: #F0B90A;
 
 @media(max-width:768px) {
   .ninth-part {

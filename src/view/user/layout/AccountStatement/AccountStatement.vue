@@ -619,7 +619,7 @@ $fontSizeMin: 12px;
 
           .el-button > span {
             height: 34px;
-            color: #3e4191;
+            color: #F0B90A;
           }
         }
       }

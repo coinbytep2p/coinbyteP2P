@@ -993,9 +993,9 @@ $fontSizeMin: 12px;
               color: #000000;
               line-height: 14px;
               font-weight: 400;
-              --el-checkbox-checked-input-border-color: #3e4191;
-              --el-checkbox-checked-bg-color: #3e4191;
-              --el-checkbox-input-border-color-hover: #3e4191;
+              --el-checkbox-checked-input-border-color: #F0B90A;
+              --el-checkbox-checked-bg-color: #F0B90A;
+              --el-checkbox-input-border-color-hover: #F0B90A;
 
               .el-checkbox__input.is-checked+.el-checkbox__label {
                 color: #000;
@@ -1012,7 +1012,7 @@ $fontSizeMin: 12px;
             }
 
             .el-progress-bar__inner {
-              background-color: #3e4191;
+              background-color: #F0B90A;
             }
           }
 
@@ -1035,7 +1035,7 @@ $fontSizeMin: 12px;
           }
 
           .table-btn {
-            color: #3e4191 !important;
+            color: #F0B90A !important;
           }
         }
       }
@@ -1068,7 +1068,7 @@ $fontSizeMin: 12px;
 
         .up {
           font-size: 16px;
-          color: #3e4191;
+          color: #F0B90A;
           line-height: 18px;
           text-align: right;
         }

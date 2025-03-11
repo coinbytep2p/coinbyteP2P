@@ -215,7 +215,7 @@
                             <div class="alert-address">
                               <a
                                 href="https://www.nzbn.govt.nz/"
-                                style="color: #3e4191; text-decoration: underline"
+                                style="color: #F0B90A; text-decoration: underline"
                                 target="_blank"
                               >
                                 {{ item.address }}
@@ -246,7 +246,7 @@
                             <div class="alert-address">
                               <a
                                 href="https://fsp-register.companiesoffice.govt.nz/"
-                                style="color: #3e4191; text-decoration: underline"
+                                style="color: #F0B90A; text-decoration: underline"
                                 target="_blank"
                               >
                                 {{ item.address }}

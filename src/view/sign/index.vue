@@ -915,7 +915,7 @@ onUnmounted(() => {
 const regUUID = ref("");
 // 进度条
 const percentage = ref(0);
-const customColor = ref("#3e4191");
+const customColor = ref("#F0B90A");
 
 function decreasePercentage() {
   if (percentage.value >= 15) {
@@ -1024,7 +1024,7 @@ const phoneBlur = () => {
 <style scoped lang="scss">
 $headerBackGround: #1d262f;
 $bg-color: #fff;
-$main-color: #3e4191;
+$main-color: #F0B90A;
 $fontSizeMax: 42px;
 $fontSizeMedPro: 28px;
 $fontSizeMed: 24px;
@@ -1036,7 +1036,7 @@ $fontSizeMin: 12px;
   min-height: calc(100vh - 20px);
   background: #ffffff;
   padding: 0 70px;
-  border-bottom: 1px solid #2e3945;
+  border-bottom: 1px solid #eee;
   @media (max-width: 768px) {
     padding: 0 20px;
     min-height: calc(100vh - 92px);
@@ -1091,7 +1091,7 @@ $fontSizeMin: 12px;
     line-height: 29px;
 
     a {
-      color: #3e4191;
+      color: #F0B90A;
       text-decoration: underline;
       cursor: pointer;
     }

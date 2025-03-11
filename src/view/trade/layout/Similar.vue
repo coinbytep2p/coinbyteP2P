@@ -153,7 +153,7 @@ const cardItem = [
       .price-rate {
         margin-top: 4px;
         text-align: right;
-        color: #3e4191;
+        color: #F0B90A;
       }
     }
     .divider {
@@ -204,7 +204,7 @@ const cardItem = [
       .price-rate {
         margin-top: 4px;
         text-align: right;
-        color: #3e4191;
+        color: #F0B90A;
       }
     }
   }

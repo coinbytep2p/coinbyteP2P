@@ -711,7 +711,7 @@ const handleToLogOut = async () => {
 <style scoped lang="scss">
 $headerBackGround: #fff;
 $bg-color: #fff;
-$main-color: #3e4191;
+$main-color: #F0B90A;
 $fontSizeMax: 42px;
 $fontSizeMed: 24px;
 $fontSizeDefPro: 18px;
@@ -719,7 +719,7 @@ $fontSizeDef: 16px;
 $fontSizeMinPro: 14px;
 $fontSizeMin: 12px;
 $headerBackGround: #fff;
-$system-color: #3e4191;
+$system-color: #F0B90A;
 $bg-color: #fff;
 $bold-font: HarmonyOS_Sans_Bold;
 $medium-font: HarmonyOS_Sans_Medium;
@@ -1027,7 +1027,7 @@ $regular-font: HarmonyOS_Sans_Regular;
       cursor: pointer;
 
       .aud-badge {
-        background: #3e4191;
+        background: #F0B90A;
         border-radius: 4px;
         font-size: 12px;
         padding: 2px 6px;
@@ -1048,7 +1048,7 @@ $regular-font: HarmonyOS_Sans_Regular;
           border-top: 6px solid transparent;
           border-bottom: 6px solid transparent;
           border-right: 6px solid;
-          border-right-color: #3e4191;
+          border-right-color: #F0B90A;
         }
       }
     }
@@ -1089,8 +1089,8 @@ $regular-font: HarmonyOS_Sans_Regular;
   }
 
   :deep(.el-radio-button__original-radio:checked + .el-radio-button__inner) {
-    background-color: #3e4191;
-    border-color: #3e4191;
+    background-color: #F0B90A;
+    border-color: #F0B90A;
     color: #fff;
   }
 
@@ -1141,7 +1141,7 @@ $regular-font: HarmonyOS_Sans_Regular;
 .notice-view-more {
   cursor: pointer;
   font-size: 12px;
-  color: #3e4191;
+  color: #F0B90A;
   float: right;
   margin-top: -15px;
   margin-right: 15px;
@@ -1151,7 +1151,7 @@ $regular-font: HarmonyOS_Sans_Regular;
 .notice-tip {
   width: 8px;
   height: 8px;
-  background: #3e4191;
+  background: #F0B90A;
   border-radius: 50%;
   position: absolute;
   top: 12px;
@@ -1222,8 +1222,8 @@ $regular-font: HarmonyOS_Sans_Regular;
 }
 
 :deep(.el-dropdown-menu__item) {
-  --el-dropdown-menuItem-hover-color: #3e4191;
-  --el-dropdown-menuItem-color: #3e4191;
+  --el-dropdown-menuItem-hover-color: #F0B90A;
+  --el-dropdown-menuItem-color: #F0B90A;
   --el-dropdown-menuItem-hover-fill: #ffffff;
 }
 
@@ -1316,11 +1316,11 @@ $regular-font: HarmonyOS_Sans_Regular;
 }
 
 .selected {
-  color: #3e4191 !important;
+  color: #F0B90A !important;
 }
 
 .highlight .alert-cont {
-  color: #3e4191;
+  color: #F0B90A;
 }
 
 :deep(.el-dialog__body) {

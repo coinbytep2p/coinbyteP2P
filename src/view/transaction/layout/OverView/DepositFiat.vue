@@ -403,11 +403,11 @@
               <br/>
               <div>
                 {{ $t('messages.pay_order.third_note') }}
-                <span style="cursor: pointer; color: #3e4191 !important" @click="termsVisible = true"
+                <span style="cursor: pointer; color: #F0B90A !important" @click="termsVisible = true"
                 >  {{ $t('messages.pay_order.term') }}</span
                 >
                 {{ $t('messages.pay_order.and') }}
-                <span style="cursor: pointer; color: #3e4191 !important" @click="privacyVisible = true"
+                <span style="cursor: pointer; color: #F0B90A !important" @click="privacyVisible = true"
                 > {{ $t('messages.pay_order.privacy') }}</span
                 >
               </div>
@@ -531,13 +531,13 @@
     <!--            >-->
     <!--              <template #default="scope">-->
     <!--                <div-->
-    <!--                    style="color: #3e4191"-->
+    <!--                    style="color: #F0B90A"-->
     <!--                >-->
     <!--                  Successful-->
     <!--                </div>-->
     <!--                &lt;!&ndash; <div-->
     <!--                    v-if="scope.row.status === 'Successful'"-->
-    <!--                    style="color: #3e4191"-->
+    <!--                    style="color: #F0B90A"-->
     <!--                >-->
     <!--                  Successful-->
     <!--                </div>-->
@@ -942,7 +942,7 @@ const requireList = [
   },
   {
     img: requireThree,
-    info: `${t('messages.deposit_Fiat.trans_3')} <span style='color: #3e4191;cursor:pointer;'>${t('messages.deposit_Fiat.term')}</span> ${t('messages.deposit_Fiat.and')} <span style='color: #3e4191;cursor:pointer;'>${t('messages.deposit_Fiat.privacy')}</span>。`,
+    info: `${t('messages.deposit_Fiat.trans_3')} <span style='color: #F0B90A;cursor:pointer;'>${t('messages.deposit_Fiat.term')}</span> ${t('messages.deposit_Fiat.and')} <span style='color: #F0B90A;cursor:pointer;'>${t('messages.deposit_Fiat.privacy')}</span>。`,
   },
   {
     img: requireFour,
@@ -999,7 +999,7 @@ $fontSizeMin: 12px;
     }
 
     .el-button--primary {
-      --el-button-hover-bg-color: #3e4191;
+      --el-button-hover-bg-color: #F0B90A;
     }
 
     .el-step.is-vertical .el-step__title {
@@ -1021,7 +1021,7 @@ $fontSizeMin: 12px;
     }
 
     .el-step__head.is-finish .is-text {
-      background-color: #3e4191;
+      background-color: #F0B90A;
       color: #FFF;
     }
 
@@ -1063,7 +1063,7 @@ $fontSizeMin: 12px;
       width: 128px;
       height: 36px;
       background-color: #f7f7f7;
-      color: #3e4191;
+      color: #F0B90A;
       border-radius: 8px;
 
       .toFiat {
@@ -1100,7 +1100,7 @@ $fontSizeMin: 12px;
         line-height: 16px;
 
         span {
-          color: #3e4191;
+          color: #F0B90A;
         }
       }
 
@@ -1273,7 +1273,7 @@ $fontSizeMin: 12px;
             margin-top: 16px;
             width: 153px;
             height: 54px;
-            border: 1px solid #3e4191;
+            border: 1px solid #F0B90A;
             border-radius: 4px;
             @media(max-width: 992px) {
               margin-top: 10px;
@@ -1338,7 +1338,7 @@ $fontSizeMin: 12px;
           .count-range {
             font-size: 20px;
             text-align: center;
-            color: #3e4191;
+            color: #F0B90A;
             margin-top: 12px;
             line-height: 25px;
             font-weight: 600;
@@ -1482,7 +1482,7 @@ $fontSizeMin: 12px;
             line-height: 16px;
 
             span {
-              color: #3e4191;
+              color: #F0B90A;
               text-decoration-line: underline;
               cursor: pointer;
             }
@@ -1641,7 +1641,7 @@ $fontSizeMin: 12px;
         letter-spacing: 0;
 
         span {
-          color: #3e4191;
+          color: #F0B90A;
         }
 
         .work-title {
@@ -1657,7 +1657,7 @@ $fontSizeMin: 12px;
         }
 
         .view {
-          color: #3e4191;
+          color: #F0B90A;
           text-decoration: underline;
           font-size: 14px;
           cursor: pointer;
@@ -1755,7 +1755,7 @@ $fontSizeMin: 12px;
   height: 48px !important;
   border-radius: 4px;
   border: 1px solid #dfdfe5;
-  background-color: #3e4191;
+  background-color: #F0B90A;
   color: #fff;
 }
 

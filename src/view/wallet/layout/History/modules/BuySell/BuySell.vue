@@ -203,12 +203,12 @@ const tableData = ref([
   gap: 8px;
   a {
     font-size: 14px;
-    color: #3e4191;
+    color: #F0B90A;
   }
   img {
     width: 19px;
     height: 19px;
-    // background: #3e4191;
+    // background: #F0B90A;
     filter: invert(100%);
   }
 }

@@ -265,7 +265,7 @@ export default defineComponent({
       console.log(val);
     };
 
-    const mainColor = "#3e4191";
+    const mainColor = "#F0B90A";
 
     const currentLanguage = ref(getStoredLanguage() || "English/USD");
     const $this = getCurrentInstance()?.appContext.config.globalProperties as any;
@@ -398,7 +398,7 @@ export default defineComponent({
 
   .el-dropdown-menu .el-dropdown-menu__item:not(.is-disabled):hover {
     background-color: #ffffff;
-    color: #3e4191;
+    color: #F0B90A;
   }
 
   // &.el-popper.is-light {
@@ -408,7 +408,7 @@ export default defineComponent({
 }
 </style>
 <style scoped lang="scss">
-$main-color: #3e4191;
+$main-color: #F0B90A;
 $bg-color: #fff;
 
 .btn {
@@ -426,7 +426,7 @@ $bg-color: #fff;
 .btn2 {
   border: none;
   padding: 8px 16px;
-  background: #3e4191;
+  background: #F0B90A;
   box-shadow: 4px 4px 10px 0 rgba(146, 146, 146, 0.5);
   border-radius: 4px;
   font-size: 14px;
@@ -905,7 +905,7 @@ img {
 
       .el-dropdown-menu .el-dropdown-menu__item:not(.is-disabled):hover {
         background-color: #ffffff;
-        color: #3e4191;
+        color: #F0B90A;
       }
     }
 
@@ -919,7 +919,7 @@ img {
       color: #fff;
       line-height: 80%;
       padding: 8px 10px;
-      background: #3e4191;
+      background: #F0B90A;
       border-radius: 4px;
       border: none;
       font-size: 14px;
@@ -941,7 +941,7 @@ img {
 
   .menu {
     .aud-badge {
-      background: #3e4191;
+      background: #F0B90A;
       border-radius: 4px;
       font-size: 0.5rem;
       padding: 2px 3px;
@@ -1335,7 +1335,7 @@ img {
   .part06-button {
     border: none;
     padding: 1rem 1.7rem;
-    background: #3e4191;
+    background: #F0B90A;
     box-shadow: 4px 4px 10px 0 rgba(146, 146, 146, 0.5);
     border-radius: 4px;
     font-size: 14px;

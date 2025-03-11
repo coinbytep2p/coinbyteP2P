@@ -348,7 +348,7 @@ const fourthCard = [
 <style scoped lang='scss'>
 $headerBackGround: #1d262f;
 $bg-color: #fff;
-$main-color: #3e4191;
+$main-color: #F0B90A;
 $fontSizeMax: 42px;
 $fontSizeMed: 24px;
 $fontSizeDefPro: 18px;
@@ -370,7 +370,7 @@ $fontSizeMin: 12px;
 }
 :deep() {
   .el-tabs--card>.el-tabs__header .el-tabs__item.is-active{
-    border-bottom: 3px solid #3e4191;
+    border-bottom: 3px solid #F0B90A;
     height: 77px;
   }
   .el-tabs--card>.el-tabs__header .el-tabs__item{
@@ -382,7 +382,7 @@ $fontSizeMin: 12px;
   }
   
   .el-tabs__item.is-active{
-    color: #3e4191;
+    color: #F0B90A;
   }
 }
 .top-box {

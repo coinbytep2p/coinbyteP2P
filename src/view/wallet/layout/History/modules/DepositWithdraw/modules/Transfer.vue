@@ -153,7 +153,7 @@ const tableData = computed(() => {
   .img-button {
     width: 20px;
     height: 20px;
-    border: 1px solid #3e4191;
+    border: 1px solid #F0B90A;
     border-radius: 50%;
     cursor: pointer;
     img {
@@ -174,12 +174,12 @@ const tableData = computed(() => {
   gap: 8px;
   a {
     font-size: 14px;
-    color: #3e4191;
+    color: #F0B90A;
   }
   img {
     width: 19px;
     height: 19px;
-    // background: #3e4191;
+    // background: #F0B90A;
     filter: invert(100%);
   }
 }

@@ -81,7 +81,7 @@
                   <el-table-column prop="price_change_percentage_24h" :label="t('messages.market.table_Change')" sortable
                     width="200" align="right">
                     <template v-slot="{ row }">
-                      <span v-if="row.price_change_percentage_24h > 0" style="color: #3e4191">
+                      <span v-if="row.price_change_percentage_24h > 0" style="color: #F0B90A">
                         {{ row.price_change_percentage_24h.toFixed(2) }}%
                       </span>
                       <span v-else-if="row.price_change_percentage_24h < 0" style="color: #f15958">
@@ -865,24 +865,24 @@ function hrefTo(url: string, slug:string, name:string, icon:string) {
   }
 
   .el-tabs__item is-top {
-    --el-menu-active-color: #3e4191;
+    --el-menu-active-color: #F0B90A;
     font-size: 16px;
     line-height: 19px;
   }
 
   .el-tabs__item.is-active {
-    color: #3e4191 !important;
+    color: #F0B90A !important;
     font-weight: 500;
   }
 
   .el-tabs__active-bar {
-    background-color: #3e4191;
+    background-color: #F0B90A;
     height: 4px;
   }
 
   .el-radio-button {
     &:hover span {
-      color: #3e4191;
+      color: #F0B90A;
     }
 
     .el-radio-button__inner {
@@ -894,15 +894,15 @@ function hrefTo(url: string, slug:string, name:string, icon:string) {
     }
 
     --el-radio-button-checked-bg-color: #f1f1f1;
-    --el-radio-button-checked-text-color: #3e4191 !important;
+    --el-radio-button-checked-text-color: #F0B90A !important;
   }
 
   .el-table .descending .sort-caret.descending {
-    border-top-color: #3e4191;
+    border-top-color: #F0B90A;
   }
 
   .el-table .ascending .sort-caret.ascending {
-    border-bottom-color: #3e4191;
+    border-bottom-color: #F0B90A;
   }
 
   .el-radio-button__inner {
@@ -994,7 +994,7 @@ function hrefTo(url: string, slug:string, name:string, icon:string) {
 .action-btn {
   :deep(.el-button > span) {
     font-size: 16px;
-    color: #3e4191;
+    color: #F0B90A;
     line-height: 19px;
     font-weight: 500;
   }
@@ -1041,7 +1041,7 @@ function hrefTo(url: string, slug:string, name:string, icon:string) {
     }
 
     // .el-pager li:hover {
-    //   color: #3e4191 !important;
+    //   color: #F0B90A !important;
     // }
     .el-pagination {
       --el-pagination-border-radius: 4px;

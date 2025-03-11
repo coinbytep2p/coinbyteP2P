@@ -51,7 +51,7 @@
                 <template #default="scope">
                   <div
                     v-if="scope.row.status === 'Successful'"
-                    style="color: #3e4191"
+                    style="color: #F0B90A"
                   >
                     Successful
                   </div>
@@ -112,7 +112,7 @@
                 <template #default="scope">
                   <div
                     v-if="scope.row.status === 'Successful'"
-                    style="color: #3e4191"
+                    style="color: #F0B90A"
                   >
                     Successful
                   </div>
@@ -478,7 +478,7 @@ const getKey = (key: string) => {
 }
 
 .text-green {
-  color: #3e4191;
+  color: #F0B90A;
 }
 .flat-search{
   display: flex;
@@ -505,12 +505,12 @@ const getKey = (key: string) => {
   gap: 8px;
   a {
     font-size: 14px;
-    color: #3e4191;
+    color: #F0B90A;
   }
   img {
     width: 19px;
     height: 19px;
-    // background: #3e4191;
+    // background: #F0B90A;
     filter: invert(100%);
   }
 }

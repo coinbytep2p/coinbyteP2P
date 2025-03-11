@@ -15,7 +15,7 @@
         },
         bgc : {
             type : String,
-            default : "#3e4191"
+            default : "#F0B90A"
         },
         fc : {
             type : String,
@@ -28,7 +28,7 @@
 </script>
 <style lang="scss" scoped>
     .custom-button {
-        // background: #3e4191;
+        // background: #F0B90A;
         min-height: 41px;
         height: 100%;
         // color: #fff;

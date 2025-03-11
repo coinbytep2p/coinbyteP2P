@@ -290,7 +290,7 @@ onMounted(() => {
   .buy {
     width: 140px;
     height: 38px;
-    border: 1px solid #3e4191;
+    border: 1px solid #F0B90A;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,7 +299,7 @@ onMounted(() => {
   .sell {
     width: 140px;
     height: 38px;
-    background: #3e4191;
+    background: #F0B90A;
     display: flex;
     align-items: center;
     justify-content: center;

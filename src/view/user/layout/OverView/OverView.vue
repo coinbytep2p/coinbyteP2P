@@ -142,7 +142,7 @@
               <div class="bottom-link">
                 <router-link
                     to="/user/depositFiat"
-                    style="color: #3e4191; text-decoration: none"
+                    style="color: #F0B90A; text-decoration: none"
                 >
                   <div class="link-text">{{ $t('messages.user.Security_Manage') }}</div>
                   <el-icon>
@@ -171,7 +171,7 @@
               <div class="bottom-link">
                 <router-link
                     to="/user/bankaccount"
-                    style="color: #3e4191; text-decoration: none"
+                    style="color: #F0B90A; text-decoration: none"
                 >
                   <div class="link-text">{{ $t('messages.user.paid') }}</div>
                   <el-icon>
@@ -203,7 +203,7 @@
               <div class="bottom-link">
                 <router-link
                     to="/user/verification"
-                    style="color: #3e4191; text-decoration: none"
+                    style="color: #F0B90A; text-decoration: none"
                 >
                   <div class="link-text">{{ $t('messages.user.Verification_Verify') }}</div>
                   <el-icon>
@@ -243,7 +243,7 @@
               <div class="bottom-link">
                 <router-link
                     to="/user/accountstatement"
-                    style="color: #3e4191; text-decoration: none"
+                    style="color: #F0B90A; text-decoration: none"
                 >
                   <div class="link-text">{{ $t('messages.user.manage') }}</div>
                   <el-icon>
@@ -519,7 +519,7 @@ async function submitEmailForm() {
 
           span {
             font-size: 14px;
-            color: #3e4191;
+            color: #F0B90A;
             position: absolute;
             top: 7px;
             left: 22px;
