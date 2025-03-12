@@ -256,7 +256,7 @@ export default {
             contact_firstTitle: "Live chat",
             contact_firstContent: "Our customer support is ready to help you 24/7",
             contact_secondTitle: "Company address",
-            contact_auContent:'Level 5, 309 George Street, Sydney, NSW 2000 Australia',
+            contact_auContent:'Level 5, 309 George Street, Sydney,\n NSW 2000 Australia',
             contact_nzContent:'9.Level 8/139 Quay Street, Auckland CBD, Auckland 1010, New Zealand',
             contact_thirdTitle: "Follow us on social media",
 

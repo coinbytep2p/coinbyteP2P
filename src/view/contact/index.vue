@@ -32,7 +32,7 @@
                 <div>
                   <div class="part-title">Company address</div>
                   <div class="part-content" v-if="$route.path.startsWith('/au')">
-                    {{ $t("messages.contact.contact_auContent") }}
+                    Level 5, 309 George Street, Sydney, <br/>NSW 2000 Australia
                   </div>
                   <div class="part-content" v-if="$route.path.startsWith('/nz')">
                     {{ $t("messages.contact.contact_nzContent") }}
@@ -67,7 +67,7 @@
                   <div class="part-content">Our customer support is ready to help you 24/7</div>
                 </div>
                 <div class="live-img">
-                  <img :src="contactus_icon01" style="width: 140px" />
+                  <img :src="contactus_icon01" />
                 </div>
               </div>
             </el-col>
@@ -666,7 +666,7 @@ const goKyc = (type: string) => {
     border: 1px solid #eaecef;
     border-radius: 16px;
     padding: 42px 50px 52px 36px;
-    margin-top: 20px;
+    margin-top: 16px;
     height: 196px;
     @media (max-width: 985px) {
       height: 180px;
@@ -692,7 +692,7 @@ const goKyc = (type: string) => {
     }
   }
   .part-box {
-    height: 413px;
+    height: 408px;
     padding: 48px 37px 19px 65px;
     border: 1px solid #eaecef;
     border-radius: 16px;
@@ -1332,7 +1332,6 @@ footer {
   }
 }
 .vertical-layout{
-  padding: 20px;
 
   .top784{
     @media (max-width: 784px) {
@@ -1341,6 +1340,8 @@ footer {
   }
 }
 .part-img, .live-img{
+  width: 160px !important;
+
   @media (max-width: 985px) {
 
     img{

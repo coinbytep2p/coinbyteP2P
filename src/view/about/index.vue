@@ -679,7 +679,7 @@ const goKyc = (type: string) => {
   }
   .top-part {
     width: 100%;
-    height: 620px;
+    height: 600px;
     position: relative;
     display: flex;
     // max-width: 1440px;
