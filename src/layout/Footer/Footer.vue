@@ -6,7 +6,7 @@
           <img class="logo" :src="logo" style="width: 100%;height: 100%;" />
         </div>
         <div>
-          <div style="text-align: right;margin-top: 20px;"><span>©2024 COINFLAKE</span></div>
+          <div style="text-align: right;margin-top: 20px;"><span>©2025 COINFLAKE</span></div>
           <div style="margin-top: -30px;display: flex;gap: 20px;">
            <!-- <span class="final-span" @click="termsVisible = true">{{ $t('messages.footer.terms_conditions') }}</span> -->
             <!-- <span class="final-span">{{ $t('messages.footer.privacy_notice') }}</span> -->

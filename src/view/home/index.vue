@@ -913,12 +913,12 @@
                 {{ $t("messages.footer.service_instant") }}</a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="/nz" style="color: #909090; text-decoration: none"
                 ><span class="flag-icon" :class="'flag-icon-nz'"></span>
                 {{ $t("messages.footer.Zealand") }}</a
               >
-            </li>
+            </li> -->
             <!-- <li>{{ $t("messages.footer.service_spot_trading") }}</li> -->
           </ul>
           <ul class="link-list">
@@ -1108,12 +1108,12 @@
                     {{ $t("messages.footer.service_instant") }}</a
                   >
                 </div>
-                <div class="list-item">
+                <!-- <div class="list-item">
                   <a href="/nz" style="color: #909090; text-decoration: none"
                     ><span class="flag-icon" :class="'flag-icon-nz'"></span>
                     {{ $t("messages.footer.Zealand") }}</a
                   >
-                </div>
+                </div> -->
               </el-collapse-item>
               <el-collapse-item name="4">
                 <template #title>
@@ -1383,7 +1383,7 @@ const gridData = [
   {
     title: "ASIC registered",
     content1: "Australian Securities and Investment Commission",
-    content2: "ACN 637345290",
+    content2: "ACN 677 883 608",
     address: "ASIC website",
   },
 ];
@@ -1393,8 +1393,7 @@ const gridData1 = [
     title: "AUSTRAC registered",
     content1: "Australian Transaction Reports & Analysis Centre",
     content2: "",
-    content3: "Digital Currency Exchange DCE100662269-001",
-    content4: "Remittance Service Provider IND100662269-001",
+    content3: "Digital Currency Exchange DCE100872254-001",
     address: "AUSTRAC website",
   },
 ];

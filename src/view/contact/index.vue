@@ -32,7 +32,7 @@
                 <div>
                   <div class="part-title">Company address</div>
                   <div class="part-content" v-if="$route.path.startsWith('/au')">
-                    Level 5, 309 George Street, Sydney, <br/>NSW 2000 Australia
+                    Sydney NSW Australia 
                   </div>
                   <div class="part-content" v-if="$route.path.startsWith('/nz')">
                     {{ $t("messages.contact.contact_nzContent") }}
@@ -225,12 +225,12 @@
                 {{ $t("messages.footer.service_instant") }}</a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="/nz" style="color: #909090; text-decoration: none"
                 ><span class="flag-icon" :class="'flag-icon-nz'"></span>
                 {{ $t("messages.footer.Zealand") }}</a
               >
-            </li>
+            </li> -->
             <!-- <li>{{ $t("messages.footer.service_spot_trading") }}</li> -->
           </ul>
           <ul class="link-list">
@@ -427,12 +427,12 @@
                     {{ $t("messages.footer.service_instant") }}</a
                   >
                 </div>
-                <div class="list-item">
+                <!-- <div class="list-item">
                   <a href="/nz" style="color: #909090; text-decoration: none"
                     ><span class="flag-icon" :class="'flag-icon-nz'"></span>
                     {{ $t("messages.footer.Zealand") }}</a
                   >
-                </div>
+                </div> -->
               </el-collapse-item>
               <el-collapse-item name="4">
                 <template #title>

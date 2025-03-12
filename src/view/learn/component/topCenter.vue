@@ -257,7 +257,7 @@ import { ref, reactive, onUnmounted, onMounted } from "vue";
 import type { TabsPaneContext } from "element-plus";
 import GetButton from "../../../components/GetButton.vue";
 
-import learn_banner01 from "../../../assets/home/learn_banner01.png";
+import learn_banner01 from "../../../assets/home/image01.svg";
 import learn_banner02 from "../../../assets/home/learn_banner02.png";
 import learn_banner03 from "../../../assets/home/learn_banner03.png";
 import learn_banner04 from "../../../assets/home/learn_banner04.png";
@@ -281,7 +281,7 @@ onMounted(() => {
   gsap.to('.right-img img', {
     duration: 2.5, // 动画持续时间
     y: 30, // 向上移动20px
-    repeat: -1, // 无限重复
+    repeat: 0, // 无限重复
     yoyo: true, // 在向上移动和原位置之间交替
     ease: 'power1.inOut' // 平滑的缓动效果
   });
@@ -496,7 +496,8 @@ $fontSizeMin: 12px;
   background-color: $headerBackGround;
   height: 560px;
   .right-img{
-    margin-top: -50px;
+    margin-top: -10px;
+    width: 80%;
   }
   @media (max-width: 1320px) {
     & {

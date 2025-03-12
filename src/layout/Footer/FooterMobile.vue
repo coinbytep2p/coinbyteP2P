@@ -2,7 +2,7 @@
   <footer>
 
     <div class="footer-bottom">
-      <span>©2024 COINFLAKE.COM</span>
+      <span>©2025 COINFLAKE.COM</span>
     </div>
     <!-- <div
       v-show="showWin"

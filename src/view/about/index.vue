@@ -106,14 +106,13 @@
             </div>
           </el-col>
           <el-col :span="11" :xs="24">
-            <div class="tab-content-title">Coinflake’s registered</div>
+            <div class="tab-content-title" style="margin-top: 50px;">Coinflake’s registered</div>
             <div class="tab-content-tip" style="line-height: 44px">
+              Coinflake’s registered <br />
               Australian Transaction Reports & Analysis Centre <br />
-              100662269 <br />
+              100872254 <br />
               Digital Currency Exchange <br />
-              DCE100662269-001 <br />
-              Remittance Service Provider <br />
-              IND100662269-001
+              DCE100872254-001 
             </div>
           </el-col>
         </el-row>
@@ -123,12 +122,11 @@
           <el-col :span="11" :xs="24">
             <div class="tab-content-title">Coinflake’s registered</div>
             <div class="tab-content-tip" style="line-height: 44px">
+              Coinflake’s registered <br />
               Australian Transaction Reports & Analysis Centre <br />
-              100662269 <br />
+              100872254 <br />
               Digital Currency Exchange <br />
-              DCE100662269-001 <br />
-              Remittance Service Provider <br />
-              IND100662269-001
+              DCE100872254-001 
             </div>
           </el-col>
           <el-col :span="10" :xs="24">
@@ -259,12 +257,12 @@
                 {{ $t("messages.footer.service_instant") }}</a
               >
             </li>
-            <li>
+            <!-- <li>
               <a href="/nz" style="color: #909090; text-decoration: none"
                 ><span class="flag-icon" :class="'flag-icon-nz'"></span>
                 {{ $t("messages.footer.Zealand") }}</a
               >
-            </li>
+            </li> -->
             <!-- <li>{{ $t("messages.footer.service_spot_trading") }}</li> -->
           </ul>
           <ul class="link-list">
@@ -460,12 +458,12 @@
                     {{ $t("messages.footer.service_instant") }}</a
                   >
                 </div>
-                <div class="list-item">
+                <!-- <div class="list-item">
                   <a href="/nz" style="color: #909090; text-decoration: none"
                     ><span class="flag-icon" :class="'flag-icon-nz'"></span>
                     {{ $t("messages.footer.Zealand") }}</a
                   >
-                </div>
+                </div> -->
               </el-collapse-item>
               <el-collapse-item name="4">
                 <template #title>
