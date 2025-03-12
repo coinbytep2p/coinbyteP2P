@@ -124,8 +124,8 @@ body {
   .max1290 {
     width: auto !important;
     max-width: none;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     margin: 0 auto;
   }
 }
@@ -169,6 +169,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap:20px;
+    @media (max-width: 992px) {
+      margin-top: 40px;
+    }
     .content{
       position: absolute;
       top: 30%;
@@ -191,6 +195,12 @@ body {
       .content-btn{
         text-align: center;
         margin-top: 50px;
+        @media (max-width: 768px) {
+          & {
+            margin-top: 5px;
+          }
+        }
+
         .start-btn{
           padding: 0px 50px !important;
         }
@@ -474,6 +484,9 @@ img {
         justify-content: left;
         margin-top: 110px;
 
+        @media (max-width: 992px) {
+          margin-top: 30px;
+        }
         .banner-more-img {
           width: 30px;
           height: 35px;
@@ -565,7 +578,12 @@ img {
   }
 
   .trade-way {
-
+    @media (max-width: 992px) {
+      margin-top: -50px;
+    }
+    @media (max-width: 706px) {
+      margin-top: -30px;
+    }
     .trade-tabs {
       margin-top: 100px;
       font-size: 24px;
@@ -1251,7 +1269,7 @@ img {
   .max1290 {
     width: auto !important;
     max-width: none;
-    padding-left: 30px !important;
+    // padding-left: 30px !important;
     padding-right: 30px !important;
     margin: 0 auto;
   }

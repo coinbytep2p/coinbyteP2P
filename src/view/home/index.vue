@@ -47,7 +47,7 @@
     <div class="bannerContainer">
       <div class="bg-img">
         <el-row style="height: 100%" class="max1290">
-          <el-col :span="12" class="banner-left">
+          <el-col :span="12" :xs="24" :sm="24" :md="12" class="banner-left">
             <div>
               <div class="banner-title">
                 {{ $t("messages.home.banner_title") }}
@@ -264,7 +264,7 @@
               </div>
             </div>
           </el-col>
-          <el-col :span="12" class="banner-right">
+          <el-col :span="12" :xs="24" :sm="24" :md="12" class="banner-right">
             <div class="for-what" v-if="windowWidth > 769">
               <div style="position: relative" class="for-buying">
                 <img class="frame" :src="banner_frame" />
@@ -335,7 +335,7 @@
       <!-- <div v-else></div> -->
     </div>
 
-    <div class="homeContainer">
+    <div class="homeContainer max1290" >
       <div v-if="tradeTab === 'first'">
         <div class="tabs-content">
           <div style="display: flex; justify-content: space-between">
