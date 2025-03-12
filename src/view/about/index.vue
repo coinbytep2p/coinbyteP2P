@@ -2,9 +2,9 @@
   <div class="about-page">
     <Header />
 
-    <div class="top-part">
-      <el-row :gutter="30">
-        <el-col :span="11">
+    <div class="top-part max1290 special-width">
+      <el-row :gutter="20">
+        <el-col :span="12" :xs="24">
           <div class="tab-content-title">Welcome to Coinflake</div>
           <div class="tab-content-tip">
             Coinflake is an innovative cryptocurrency exchange who providing safe and
@@ -15,7 +15,7 @@
             trading hundreds of Cryptos with your local FAIT pairs in Coinflake
           </div>
         </el-col>
-        <el-col :span="10">
+        <el-col :span="10" :xs="24">
           <div class="part-img">
             <img :src="aboutus_icons_01" />
           </div>
@@ -23,16 +23,17 @@
       </el-row>
     </div>
 
-    <div class="top-part gray">
+    <div class="top-part gray max1290 special-width">
       <el-row :gutter="30">
-        <el-col :span="11">
+        <el-col :span="11" :xs="24">
           <div class="tab-content-title">Our mission</div>
           <div class="tab-content-tip">
-            We strive to eliminate the barriers and evolve the global economy. We are dedicated to innovate and improve our user experience to make cryptocurrency trading and investing available for everyone
+            We strive to eliminate the barriers and evolve the global economy. We are
+            dedicated to innovate and improve our user experience to make cryptocurrency
+            trading and investing available for everyone
           </div>
-        
         </el-col>
-        <el-col :span="10">
+        <el-col :span="10" :xs="24">
           <div class="part-img">
             <img :src="aboutus_icons_02" />
           </div>
@@ -40,75 +41,105 @@
       </el-row>
     </div>
 
-    <div class="top-part">
-      <el-row :gutter="30">
-        <el-col :span="10">
-          <div class="part-img">
-            <img :src="aboutus_icons_03" />
-          </div>
-        </el-col>
-        <el-col :span="11">
-          <div class="tab-content-title">Trust & Transparency</div>
-          <div class="tab-content-tip">
-            Trust & Transparency are at the heart of everything we do. From the beginning, we made user protection and transparency our top priority. We implement highly sophisticated multi-layered security for users funds and data.
-          </div>
-        </el-col>
-      </el-row>
+    <div>
+      <div class="top-part max1290" v-if="windowWidth > 769">
+        <el-row>
+          <el-col :span="10" :xs="24">
+            <div class="part-img">
+              <img :src="aboutus_icons_03" />
+            </div>
+          </el-col>
+          <el-col :span="11" :xs="24">
+            <div class="tab-content-title">Trust & Transparency</div>
+            <div class="tab-content-tip">
+              Trust & Transparency are at the heart of everything we do. From the
+              beginning, we made user protection and transparency our top priority. We
+              implement highly sophisticated multi-layered security for users funds and
+              data.
+            </div>
+          </el-col>
+        </el-row>
+      </div>
+
+      <div class="top-part max1290" v-else>
+        <el-row :gutter="30">
+          <el-col :span="11" :xs="24">
+            <div class="tab-content-title">Trust & Transparency</div>
+            <div class="tab-content-tip">
+              Trust & Transparency are at the heart of everything we do. From the
+              beginning, we made user protection and transparency our top priority. We
+              implement highly sophisticated multi-layered security for users funds and
+              data.
+            </div>
+          </el-col>
+          <el-col :span="10" :xs="24">
+            <div class="part-img">
+              <img :src="aboutus_icons_03" />
+            </div>
+          </el-col>
+        </el-row>
+      </div>
     </div>
 
-    <div class="top-part gray">
-      <el-row :gutter="30">
-        <el-col :span="11">
+    <div class="top-part gray max1290 special-width">
+      <el-row>
+        <el-col :span="11" :xs="24">
           <div class="tab-content-title">Working with regulators</div>
           <div class="tab-content-tip">
-            COINFLAKE is committed to meeting the highest standards for regulatory compliance to maintain our responsibility to our users.
+            COINFLAKE is committed to meeting the highest standards for regulatory
+            compliance to maintain our responsibility to our users.
           </div>
         </el-col>
-        <el-col :span="10">
+        <el-col :span="10" :xs="24">
           <div class="part-img">
             <img :src="aboutus_icons_04" />
           </div>
         </el-col>
       </el-row>
     </div>
-
-    <div class="top-part">
-      <el-row :gutter="30">
-        
-        <el-col :span="10">
-          <div class="part-img">
-            <img :src="aboutus_icons_05" />
-          </div>
-        </el-col>
-        <el-col :span="11">
-          <div class="tab-content-title">Coinflake’s registered</div>
-          <div class="tab-content-tip" style="line-height: 44px;">
-            Australian Transaction Reports & Analysis Centre <br/>
-            100662269 <br/>
-            Digital Currency Exchange <br/>
-            DCE100662269-001 <br/>
-            Remittance Service Provider <br/>
-            IND100662269-001
-          </div>
-          <!-- <div class="tab-content-tip">
-            100662269
-          </div>
-          <div class="tab-content-tip">
-            Digital Currency Exchange
-          </div>
-          <div class="tab-content-tip">
-            DCE100662269-001
-          </div>
-          <div class="tab-content-tip">
-            Remittance Service Provider
-            IND100662269-001
-          </div>
-          <div class="tab-content-tip">
-            IND100662269-001
-          </div> -->
-        </el-col>
-      </el-row>
+    <div>
+      <div class="top-part max1290" v-if="windowWidth > 769">
+        <el-row :gutter="30">
+          <el-col :span="10" :xs="24">
+            <div class="part-img">
+              <img :src="aboutus_icons_05" />
+            </div>
+          </el-col>
+          <el-col :span="11" :xs="24">
+            <div class="tab-content-title">Coinflake’s registered</div>
+            <div class="tab-content-tip" style="line-height: 44px">
+              Australian Transaction Reports & Analysis Centre <br />
+              100662269 <br />
+              Digital Currency Exchange <br />
+              DCE100662269-001 <br />
+              Remittance Service Provider <br />
+              IND100662269-001
+            </div>
+          </el-col>
+        </el-row>
+      </div>
+      <div class="top-part max1290" v-else>
+        <el-row :gutter="30" class="last-width">
+          <el-col :span="11" :xs="24">
+            <div class="tab-content-title">Coinflake’s registered</div>
+            <div class="tab-content-tip" style="line-height: 44px">
+              Australian Transaction Reports & Analysis Centre <br />
+              100662269 <br />
+              Digital Currency Exchange <br />
+              DCE100662269-001 <br />
+              Remittance Service Provider <br />
+              IND100662269-001
+            </div>
+          </el-col>
+          <el-col :span="10" :xs="24">
+            <div class="part-img">
+              <img :src="aboutus_icons_05" />
+            </div>
+          </el-col>
+        </el-row>
+      </div>
     </div>
+
     <footer v-if="windowWidth > 769">
       <div class="footer-box max1290">
         <div class="footer-logo">
@@ -123,10 +154,17 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/centerContent/11" style="color: #F0B90A; font-size: 14px">{{
+            <a href="/centerContent/11" style="color: #f0b90a; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
-            <div style="margin-top: 32px; margin-bottom: 20px; font-size: 14px;color: #808080;">
+            <div
+              style="
+                margin-top: 32px;
+                margin-bottom: 20px;
+                font-size: 14px;
+                color: #808080;
+              "
+            >
               {{ $t("messages.footer.purchase") }}
             </div>
           </div>
@@ -288,7 +326,6 @@
           </li> -->
           </ul>
         </div>
-       
       </div>
     </footer>
     <footer v-else>
@@ -303,10 +340,17 @@
           </div>
           <div class="footer-info">
             <div class="info">{{ $t("messages.footer.smsf") }}</div>
-            <a href="/centerContent/11" style="color: #F0B90A; font-size: 14px">{{
+            <a href="/centerContent/11" style="color: #f0b90a; font-size: 14px">{{
               $t("messages.footer.more")
             }}</a>
-            <div style="margin-top: 32px; margin-bottom: 20px; font-size: 14px;color: #808080;">
+            <div
+              style="
+                margin-top: 32px;
+                margin-bottom: 20px;
+                font-size: 14px;
+                color: #808080;
+              "
+            >
               {{ $t("messages.footer.purchase") }}
             </div>
           </div>
@@ -474,7 +518,7 @@
         <!--        </div>-->
       </div>
     </footer>
- 
+
     <Footer v-if="windowWidth > 769" />
     <FooterMobile v-if="windowWidth <= 769" />
   </div>
@@ -607,30 +651,30 @@ const goKyc = (type: string) => {
   position: relative;
   overflow: hidden;
   min-height: calc(100vh - 0px);
-  .gray{
-    background: #FAFAFA !important;
+  .gray {
+    background: #fafafa !important;
     position: relative;
     z-index: 1;
 
     &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw; 
-        height: 100%;
-        background-color: #fafafa; 
-        z-index: -1;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100%;
+      background-color: #fafafa;
+      z-index: -1;
     }
     &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -100vw;
-        width: 100vw; 
-        height: 100%;
-        background-color: #fafafa;
-        z-index: -1;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100vw;
+      width: 100vw;
+      height: 100%;
+      background-color: #fafafa;
+      z-index: -1;
     }
   }
   .top-part {
@@ -699,7 +743,6 @@ const goKyc = (type: string) => {
       }
     }
   }
-
 }
 
 .part {
@@ -763,6 +806,9 @@ const goKyc = (type: string) => {
 @media (max-width: 985px) {
   .about-page .top-part {
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .about-page .top-part .hand_left {
@@ -784,6 +830,9 @@ const goKyc = (type: string) => {
 
   .top-part {
     height: 450px !important;
+    @media (max-width: 992px) {
+      height: 500px !important;
+    }
   }
 
   .top-part-box {
@@ -804,10 +853,16 @@ const goKyc = (type: string) => {
   }
 
   .part-img {
-    width: 30px !important;
-    //position: absolute;
-    //left: 45%;
-    //top: 12%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    @media (max-width: 992px) {
+      margin-top: 30px;
+      width: 206px;
+    }
   }
 
   .part-content {
@@ -840,7 +895,6 @@ const goKyc = (type: string) => {
   }
 }
 .top-part {
-
   .tab-content-title {
     font-size: 42px;
     color: #1e252f;
@@ -855,25 +909,43 @@ const goKyc = (type: string) => {
   .tab-content-tip {
     font-size: 20px;
     color: #878787;
-    line-height: 26px;
+    line-height: 30px;
     font-weight: 400;
-    margin-top: 50px;
+    margin-top: 30px;
     @media (max-width: 985px) {
       margin-top: 10px;
       font-size: 16px;
+      line-height: 22px !important;
     }
   }
   :deep(.el-row) {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    // @media (max-width: 1200px) {
+    //   width: 80%;
+    // }
   }
   :deep(.el-col-10) {
     max-width: 20%;
+    @media (max-width: 985px) {
+      max-width: 70%;
+    }
+    @media (max-width: 768px) {
+      max-width: 50%;
+    }
   }
 }
-
-
+.special-width{
+  :deep(.el-row) {
+    @media (max-width: 1200px) {
+      width: 90%;
+    }
+    // @media (max-width: 768px) {
+    //   width: 100%;
+    // }
+  }
+}
 .footer-trade {
   display: flex;
   justify-content: flex-start;
@@ -886,7 +958,7 @@ const goKyc = (type: string) => {
   .buy {
     width: 140px;
     height: 38px;
-    border: 1px solid #F0B90A;
+    border: 1px solid #f0b90a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -896,7 +968,7 @@ const goKyc = (type: string) => {
   .sell {
     width: 140px;
     height: 38px;
-    background: #F0B90A;
+    background: #f0b90a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -928,6 +1000,7 @@ const goKyc = (type: string) => {
   margin: 0 auto;
 }
 
+
 @media (max-width: 1400px) {
   .max1290 {
     max-width: 940px;
@@ -944,9 +1017,13 @@ const goKyc = (type: string) => {
     margin: 0 auto;
   }
 }
-
+.last-width{
+  @media (max-width: 985px) {
+    width: 100% !important;
+  }
+}
 footer {
-  background: #FAFAFA;
+  background: #fafafa;
   width: 100%;
   height: 100%;
 
@@ -1004,7 +1081,7 @@ footer {
         }
       }
     }
-  
+
     .footer-logo-md {
       display: none;
       padding-top: 30px;
@@ -1126,10 +1203,10 @@ footer {
           margin-bottom: 16px;
 
           &:hover {
-            color: #F0B90A;
+            color: #f0b90a;
 
             a {
-              color: #F0B90A !important;
+              color: #f0b90a !important;
             }
           }
         }
@@ -1177,13 +1254,13 @@ footer {
   }
 
   .footer-bottom-box {
-    background: #FAFAFA;
+    background: #fafafa;
     overflow: hidden;
 
     div.footer-bottom {
       width: 100vw;
       height: 60px;
-      background: #FAFAFA;
+      background: #fafafa;
       line-height: 60px;
       font-size: 0.8rem;
       color: #909090;
@@ -1210,7 +1287,7 @@ footer {
 }
 
 footer {
-  background: #FAFAFA;
+  background: #fafafa;
   width: 100%;
   height: 100%;
 
@@ -1218,7 +1295,7 @@ footer {
     box-sizing: border-box;
     width: 100vw;
     // height: 40vh;
-    background: #FAFAFA;
+    background: #fafafa;
     border-bottom: none;
 
     .footer-logoinfo {
@@ -1327,7 +1404,7 @@ footer {
   div.footer-bottom {
     //width: 100vw;
     font-weight: 400;
-    background: #FAFAFA;
+    background: #fafafa;
     font-size: 16px;
     color: #808080;
     letter-spacing: 0;
@@ -1342,5 +1419,4 @@ footer {
     }
   }
 }
-
 </style>
