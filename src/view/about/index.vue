@@ -43,7 +43,7 @@
 
     <div>
       <div class="top-part max1290" v-if="windowWidth > 769">
-        <el-row>
+        <el-row class="last-width">
           <el-col :span="10" :xs="24">
             <div class="part-img">
               <img :src="aboutus_icons_03" />
@@ -62,7 +62,7 @@
       </div>
 
       <div class="top-part max1290" v-else>
-        <el-row :gutter="30">
+        <el-row :gutter="30" class="min-pad">
           <el-col :span="11" :xs="24">
             <div class="tab-content-title">Trust & Transparency</div>
             <div class="tab-content-tip">
@@ -82,7 +82,7 @@
     </div>
 
     <div class="top-part gray max1290 special-width">
-      <el-row>
+      <el-row :gutter="30" class="min-pad">
         <el-col :span="11" :xs="24">
           <div class="tab-content-title">Working with regulators</div>
           <div class="tab-content-tip">
@@ -99,7 +99,7 @@
     </div>
     <div>
       <div class="top-part max1290" v-if="windowWidth > 769">
-        <el-row :gutter="30">
+        <el-row :gutter="30" class="last-width">
           <el-col :span="10" :xs="24">
             <div class="part-img">
               <img :src="aboutus_icons_05" />
@@ -119,7 +119,7 @@
         </el-row>
       </div>
       <div class="top-part max1290" v-else>
-        <el-row :gutter="30" class="last-width">
+        <el-row :gutter="30">
           <el-col :span="11" :xs="24">
             <div class="tab-content-title">Coinflake’s registered</div>
             <div class="tab-content-tip" style="line-height: 44px">
@@ -921,7 +921,7 @@ const goKyc = (type: string) => {
   :deep(.el-row) {
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
     // @media (max-width: 1200px) {
     //   width: 80%;
     // }
@@ -1012,14 +1012,19 @@ const goKyc = (type: string) => {
   .max1290 {
     width: auto !important;
     max-width: none;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    // padding-left: 30px !important;
+    // padding-right: 30px !important;
     margin: 0 auto;
   }
 }
 .last-width{
-  @media (max-width: 985px) {
+  :deep(.el-row){
     width: 100% !important;
+  }
+  width: 100% !important;
+
+  @media (max-width: 985px) {
+    width: 90% !important;
   }
 }
 footer {
@@ -1417,6 +1422,11 @@ footer {
       color: #808080;
       font-weight: 400;
     }
+  }
+}
+.min-pad{
+  @media (max-width: 768px) {
+    width: 90% !important;
   }
 }
 </style>

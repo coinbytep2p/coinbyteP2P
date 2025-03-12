@@ -603,6 +603,11 @@ const goKyc = (type: string) => {
     height: 440px;
     position: relative;
     display: flex;
+    @media (max-width: 768px) {
+      height: 280px;
+    }
+
+
     .top-part-box {
       margin: auto;
       text-align: center;
@@ -660,7 +665,10 @@ const goKyc = (type: string) => {
     height: 196px;
     @media (max-width: 985px) {
       height: 180px;
-   }
+    }
+    @media (max-width: 768px) {
+      padding: 26px 0px 28px 36px;
+    }
   }
   .part-box-right-bottom {
     border: 1px solid #eaecef;
@@ -857,7 +865,7 @@ const goKyc = (type: string) => {
   :deep(.el-row) {
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    // width: 100%;
   }
   :deep(.el-col-10) {
     max-width: 20%;

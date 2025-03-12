@@ -338,7 +338,7 @@
     <div class="homeContainer max1290" >
       <div v-if="tradeTab === 'first'">
         <div class="tabs-content">
-          <div style="display: flex; justify-content: space-between">
+          <div class="tabs-content-flex" style="">
             <div class="tabs-content-title">
               {{ $t("messages.home.buy_through") }} <span>Coinflake</span>
             </div>
