@@ -14,48 +14,97 @@
         </el-col>
       </el-row>
     </div>
+    <div>
+      <div v-if="windowWidth >= 769" >
+        <div class="center-part part top-center">
+          <el-row :gutter="20">
+            <el-col :span="12">
+              <div class="part-box left-box">
+                <div class="part-title">Live chat us</div>
+                <div class="part-content">Our customer support is ready to help you 24/7</div>
+                <div class="live-img">
+                  <img :src="contactus_icon01" style="width: 140px" />
+                </div>
+              </div>
+            </el-col>
+            <el-col :span="12">
+              <div class="part-box-right-top">
+                <div>
+                  <div class="part-title">Company address</div>
+                  <div class="part-content" v-if="$route.path.startsWith('/au')">
+                    {{ $t("messages.contact.contact_auContent") }}
+                  </div>
+                  <div class="part-content" v-if="$route.path.startsWith('/nz')">
+                    {{ $t("messages.contact.contact_nzContent") }}
+                  </div>
+                </div>
+                <div class="part-img">
+                  <img :src="contactus_icon02" />
+                </div>
+              </div>
+              <div class="part-box-right-bottom">
+                <div class="part-title fix-line-height">
+                  {{ $t("messages.contact.contact_thirdTitle") }}
+                </div>
+                <div class="bottom-part-icon">
+                  <img src="../../assets/icons/icon_twitter.svg" alt="" />
+                  <img src="../../assets/icons/icon_telegram.svg" alt="" />
+                  <img src="../../assets/icons/icon_whatsapp.svg" alt="" />
+                  <img src="../../assets/home/downbar_icon10.png" alt="" />
+                </div>
+              </div>
+            </el-col>
+          </el-row>
+        </div>
+      </div>
+      <div v-else>
+        <div class="center-part part top-center">
+          <el-row :gutter="20" class="vertical-layout">
+            <el-col :span="24">
+              <div class="part-box-right-top">
+                <div>
+                  <div class="part-title">Live chat us</div>
+                  <div class="part-content">Our customer support is ready to help you 24/7</div>
+                </div>
+                <div class="live-img">
+                  <img :src="contactus_icon01" style="width: 140px" />
+                </div>
+              </div>
+            </el-col>
+            <el-col :span="24">
+              <div class="part-box-right-top top784">
+                  <div>
+                    <div class="part-title">Company address</div>
+                    <div class="part-content" v-if="$route.path.startsWith('/au')">
+                      {{ $t("messages.contact.contact_auContent") }}
+                    </div>
+                    <div class="part-content" v-if="$route.path.startsWith('/nz')">
+                      {{ $t("messages.contact.contact_nzContent") }}
+                    </div>
+                  </div>
 
-    <div class="center-part part top-center">
-      <el-row :gutter="20">
-        <el-col :span="12">
-          <div class="part-box left-box">
-            <div class="part-title">Live chat us</div>
-            <div class="part-content">Our customer support is ready to help you 24/7</div>
-            <div class="live-img">
-              <img :src="contactus_icon01" style="width: 140px" />
-            </div>
-          </div>
-        </el-col>
-        <el-col :span="12">
-          <div class="part-box-right-top">
-            <div>
-              <div class="part-title">Company address</div>
-              <div class="part-content" v-if="$route.path.startsWith('/au')">
-                {{ $t("messages.contact.contact_auContent") }}
+                  <div class="part-img">
+                    <img :src="contactus_icon02" />
+                  </div>
               </div>
-              <div class="part-content" v-if="$route.path.startsWith('/nz')">
-                {{ $t("messages.contact.contact_nzContent") }}
+            </el-col>
+            <el-col :span="24">
+              <div class="part-box-right-bottom">
+                <div class="part-title fix-line-height">
+                  {{ $t("messages.contact.contact_thirdTitle") }}
+                </div>
+                <div class="bottom-part-icon">
+                  <img src="../../assets/icons/icon_twitter.svg" alt="" />
+                  <img src="../../assets/icons/icon_telegram.svg" alt="" />
+                  <img src="../../assets/icons/icon_whatsapp.svg" alt="" />
+                  <img src="../../assets/home/downbar_icon10.png" alt="" />
+                </div>
               </div>
-            </div>
-            <div class="part-img">
-              <img :src="contactus_icon02" />
-            </div>
-          </div>
-          <div class="part-box-right-bottom">
-            <div class="part-title fix-line-height">
-              {{ $t("messages.contact.contact_thirdTitle") }}
-            </div>
-            <div class="bottom-part-icon">
-              <img src="../../assets/icons/icon_twitter.svg" alt="" />
-              <img src="../../assets/icons/icon_telegram.svg" alt="" />
-              <img src="../../assets/icons/icon_whatsapp.svg" alt="" />
-              <img src="../../assets/home/downbar_icon10.png" alt="" />
-            </div>
-          </div>
-        </el-col>
-      </el-row>
+            </el-col>
+          </el-row>
+        </div>
+      </div>
     </div>
-
     <footer v-if="windowWidth > 769">
       <div class="footer-box max1290">
         <div class="footer-logo">
@@ -608,12 +657,20 @@ const goKyc = (type: string) => {
     border: 1px solid #eaecef;
     border-radius: 16px;
     padding: 26px 50px 28px 36px;
+    height: 196px;
+    @media (max-width: 985px) {
+      height: 180px;
+   }
   }
   .part-box-right-bottom {
     border: 1px solid #eaecef;
     border-radius: 16px;
     padding: 42px 50px 52px 36px;
     margin-top: 20px;
+    height: 196px;
+    @media (max-width: 985px) {
+      height: 180px;
+   }
   }
   .part-box-right,
   .part-box-right-top,
@@ -635,7 +692,7 @@ const goKyc = (type: string) => {
     }
   }
   .part-box {
-    height: 408px;
+    height: 413px;
     padding: 48px 37px 19px 65px;
     border: 1px solid #eaecef;
     border-radius: 16px;
@@ -708,7 +765,9 @@ const goKyc = (type: string) => {
 }
 .part-top-img {
   width: 537px;
-
+  @media (max-width: 985px) {
+    width: 100%;
+  }
   img {
     width: 100%;
     height: 100%;
@@ -739,20 +798,28 @@ const goKyc = (type: string) => {
     top: 68%;
   }
   .contact-page .part-box {
-    height: 300px;
+    height: 382px;
   }
-  .part-box {
+  .part-box,.part-box-right-top, .part-box-right-bottom {
     .part-title {
       font-size: 20px !important;
-      line-height: 28px;
+      line-height: 37px !important;
+    }
+    .part-content{
+      font-size: 16px !important;
+      line-height: 30px !important;
     }
   }
   .bottom-part-title {
-    line-height: 50px;
+    line-height: 37px;
   }
 
   .part {
     max-width: none;
+    @media (max-width: 985px) {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
   }
 }
 .fix-line-height {
@@ -771,7 +838,7 @@ const goKyc = (type: string) => {
     line-height: 34px;
     font-weight: 500;
     @media (max-width: 992px) {
-      font-size: 22px;
+      font-size: 28px;
       margin-top: 20px;
     }
   }
@@ -1178,8 +1245,7 @@ footer {
     }
 
     .link-list {
-      margin-top: 20px;
-      padding: 0 20px;
+      padding: 20px;
 
       .part09-collapse {
         width: 100%;
@@ -1263,6 +1329,36 @@ footer {
       color: #808080;
       font-weight: 400;
     }
+  }
+}
+.vertical-layout{
+  padding: 20px;
+
+  .top784{
+    @media (max-width: 784px) {
+      margin-top: 20px;
+    }
+  }
+}
+.part-img, .live-img{
+  @media (max-width: 985px) {
+
+    img{
+      width: 80px !important;
+      height: auto;
+    }
+  }
+}
+.part-title {
+  line-height: 37px !important;
+  @media (max-width: 985px) {
+    font-size: 28px !important;
+  }
+}
+.part-content{
+  line-height: 30px !important;
+  @media (max-width: 985px) {
+    font-size: 16px !important;
   }
 }
 </style>

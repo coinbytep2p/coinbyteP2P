@@ -185,12 +185,22 @@ body {
         font-weight: 600;
         color: #060606;
         text-align: center;
+        @media (max-width: 992px) {
+          & {
+            font-size: 22px !important;
+          }
+        }
       }
       .content-way{
         font-size: 20px;
         color: #878787;
         text-align: center;
         margin-top: 30px;
+        @media (max-width: 992px) {
+          & {
+            font-size: 16px !important;
+          }
+        }
       }
       .content-btn{
         text-align: center;
@@ -356,7 +366,7 @@ img {
           line-height: 45px !important;
           @media (max-width: 992px) {
             & {
-              font-size: 30px !important;
+              font-size: 28px !important;
               padding: 0 15px;
             }
           }
@@ -450,7 +460,7 @@ img {
             font-weight: 500;
             @media (max-width: 992px) {
               & {
-                font-size: 26px;
+                font-size: 22px;
               }
             }
           }
@@ -460,7 +470,7 @@ img {
             line-height: 30px;
             @media (max-width: 992px) {
               & {
-                font-size: $fontSizeMinPro;
+                font-size: 16px;
               }
             }
           }
@@ -549,7 +559,6 @@ img {
     font-weight: 500 !important;
     color: #9b9b9b;
 
-
     & :hover {
       color: #9b9b9b;
     }
@@ -610,6 +619,11 @@ img {
       color: #242933;
       padding: 0px 35px;
       border-radius: 20px;
+      @media (max-width: 992px) {
+        & {
+          font-size: 14px !important;
+        }
+      }
     }
 
     :deep(.el-tabs__active-bar) {
@@ -634,7 +648,7 @@ img {
       margin-top: 100px;
       @media (max-width: 992px) {
         & {
-          font-size: 22px !important;
+          font-size: 28px !important;
         }
       }
       span {
@@ -770,7 +784,8 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-      }
+        font-size: 28px;
+    }
 
       span {
         color: $main-color;

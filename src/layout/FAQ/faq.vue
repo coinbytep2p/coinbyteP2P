@@ -111,7 +111,7 @@ $bg-color: #fff;
 $main-color: #F0B90A;
 $fontSizeMax: 42px;
 $fontSizeMed: 24px;
-$fontSizeDefPro: 18px;
+$fontSizeDefPro: 28px;
 $fontSizeDef: 16px;
 $fontSizeMinPro: 14px;
 $fontSizeMin: 12px;

@@ -682,7 +682,7 @@ const goKyc = (type: string) => {
     height: 620px;
     position: relative;
     display: flex;
-    max-width: 1440px;
+    // max-width: 1440px;
     margin: auto;
 
     .back-center {
@@ -901,7 +901,7 @@ const goKyc = (type: string) => {
     line-height: 34px;
     font-weight: 500;
     @media (max-width: 992px) {
-      font-size: 22px;
+      font-size: 28px;
       margin-top: 20px;
     }
   }
@@ -919,7 +919,7 @@ const goKyc = (type: string) => {
     }
   }
   :deep(.el-row) {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     // @media (max-width: 1200px) {
