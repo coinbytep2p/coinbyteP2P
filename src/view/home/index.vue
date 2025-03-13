@@ -120,7 +120,7 @@
                             <div class="alert-cont">{{ item.content1 }}</div>
                             <div class="alert-cont">{{ item.content2 }}</div>
                             <div class="alert-cont">{{ item.content3 }}</div>
-                            <div class="alert-cont">{{ item.content4 }}</div>
+                            <!-- <div class="alert-cont">{{ item.content4 }}</div> -->
                             <div class="alert-address">
                               <a
                                 href="https://online.austrac.gov.au/ao/public/rsregister.seam"
