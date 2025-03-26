@@ -36,6 +36,10 @@
           </li>
         </ul>
         <div class="scam-tip">CANCEL THE ORDER IF SOMEONE TEACHING YOU HOW TO BUY!!!</div>
+        <div class="confirm-check">
+          <el-checkbox v-model="confirmChecked" size="default" />
+          <span style="padding-left: 10px;">I confirm that I am acting on my own behalf and have not been persuaded, influenced, or coached by any third party to perform this transaction for investment, trading, or other purposes.</span>
+        </div>
       </div>
       <template #footer>
         <div class="dialog-footer">
@@ -1179,6 +1183,7 @@ import Footer from "../../layout/Footer/Footer.vue";
 import FooterMobile from "../../layout/Footer/FooterMobile.vue";
 import faq from "../../layout/FAQ/faq.vue";
 import GetButton from "../../components/GetButton.vue";
+import {ElMessage} from "element-plus";
 
 //icon
 import { Right } from "@element-plus/icons";
@@ -1339,6 +1344,8 @@ const handleFootChange = (val: string[]) => {
   console.log(val);
 };
 
+const confirmChecked = ref(false)
+
 const tradeTab = ref<any>("first");
 const reasonTab = ref(t("messages.home.fifth_regulation"));
 function triggerAnimations() {
@@ -1454,6 +1461,10 @@ const goKyc = (type: string) => {
 
 //goKyc
 const confirmScam = () => {
+  if (!confirmChecked.value) {
+    ElMessage.warning("Please confirm before proceeding.");
+    return;
+  }
   const type = currentType.value;
   console.log("Confirmed type:", type);
   if (userInfoStore.isLogin) {
@@ -1835,6 +1846,9 @@ function leave(el: any, done: any) {
   color: #505050;
   line-height: 32px;
   font-weight: 500;
+}
+.confirm-check{
+  margin-top: 10px;
 }
 .scam-dialog .scam-warning {
   background-color: #ffcccb; /* Light red background */
