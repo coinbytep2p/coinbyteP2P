@@ -28,6 +28,18 @@ let isRefreshing = false;
 
 instance.interceptors.response.use(
   function (response: any) {
+    // 添加字符串替换逻辑
+    if (response.data) {
+      // 如果响应数据是字符串
+      if (typeof response.data === 'string') {
+        response.data = response.data.replace(/CoinbyteP2P/g, 'Coinflake');
+      } 
+      // 如果响应数据是对象，递归处理所有字符串值
+      else if (typeof response.data === 'object') {
+        response.data = replaceStringInObject(response.data);
+      }
+    }
+
     if (response.data && response.data.status === 401) {
       if (!isRefreshing) {
         isRefreshing = true;
@@ -204,4 +216,27 @@ async function toRefreshToken() {
     console.error(error);
     return null;
   }
+}
+
+// 添加辅助函数用于递归处理对象中的字符串
+function replaceStringInObject(obj: any): any {
+  if (!obj) return obj;
+  
+  if (typeof obj === 'string') {
+    return obj.replace(/CoinbyteP2P/g, 'Coinflake');
+  }
+  
+  if (Array.isArray(obj)) {
+    return obj.map(item => replaceStringInObject(item));
+  }
+  
+  if (typeof obj === 'object') {
+    const newObj: any = {};
+    for (const key in obj) {
+      newObj[key] = replaceStringInObject(obj[key]);
+    }
+    return newObj;
+  }
+  
+  return obj;
 }
