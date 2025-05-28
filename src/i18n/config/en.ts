@@ -209,7 +209,7 @@ export default {
             seventh_how: "How to buy and sell crypto currency on Coinflake",
             seventh_start: "Start trading cryptocurrency on Coinflake",
             seventh_earn:
-                "Coinflake Earn: Use your crypto assets to earn passive income on Coinflake",
+                "How to Protect Your Crypto",
                 // "Coinflake Earn: Use your crypto assets to earn passive income on Coinflake",
             seventh_more: "View more",
             eighth_title: "Frequently asked questions",

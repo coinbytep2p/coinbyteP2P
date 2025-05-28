@@ -28,8 +28,7 @@
           <img :src="part07_pic03" alt="" />
         </div>
         <div class="item-title">
-          CoinByte Earn: Use your crypto assets to earn passive income on
-          CoinByte
+          How to Protect Your Crypto
         </div>
       </el-col>
     </el-row>
@@ -67,8 +66,7 @@
           <img :src="part07_pic03" alt="" />
         </div>
         <div class="item-title">
-          CoinByte Earn: Use your crypto assets to earn passive income on
-          CoinByte
+          How to Protect Your Crypto
         </div>
       </el-col>
     </el-row>
