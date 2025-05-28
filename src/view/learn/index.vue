@@ -43,6 +43,7 @@ onMounted(async () => {
   try {
     const res: any = await getBlogs();
     const data: Blog[] = res.data;
+    
     blogs.value = data;
     console.log(blogs.value)
   } catch(e) {
